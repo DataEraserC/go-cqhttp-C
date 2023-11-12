@@ -9,10 +9,10 @@
 #define CODESIZE_MAX 1024
 
 /*URL编码*/
-char* urlencode(char url[]);
+char *urlencode(char url[]);
 
 /*GBK转UTF-8*/
-char* GBKtoUTF8(char* strGbk);
+char *GBKtoUTF8(char *strGbk);
 
 /*UTF-8转GBK*/
-char* UTF8toGBK(char* strUtf8);
+char *UTF8toGBK(char *strUtf8);

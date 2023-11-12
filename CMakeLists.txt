@@ -1,5 +1,6 @@
 project(gocqhttp)
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(SOURCE
     "gocqhttp_API.c"
     "gocqhttp_Event.c"

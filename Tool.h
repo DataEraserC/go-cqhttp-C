@@ -1,12 +1,12 @@
 #pragma once
-#include<malloc.h>
-#include<stdio.h>
+#include <malloc.h>
+#include <stdio.h>
 
-//»ñÈ¡ÎÄ¼ş´óĞ¡
-int getFileSize(FILE* fp);
+//è·å–æ–‡ä»¶å¤§å°
+int getFileSize(FILE *fp);
 
-//°²È«ÉêÇëÄÚ´æ£¨Ê¹ÓÃmallocÉêÇë£¬Èç¹û·µ»ØNULL£¬ÔòÍË³ö³ÌĞò£©
-void* malloc_s(size_t size);
+//å®‰å…¨ç”³è¯·å†…å­˜ï¼ˆä½¿ç”¨mallocç”³è¯·ï¼Œå¦‚æœè¿”å›NULLï¼Œåˆ™é€€å‡ºç¨‹åºï¼‰
+void *malloc_s(size_t size);
 
-//È¥³ıhttpÏûÏ¢Í·
-char* removeHeaders(char* httpMessage);
+//å»é™¤httpæ¶ˆæ¯å¤´
+char *removeHeaders(char *httpMessage);
